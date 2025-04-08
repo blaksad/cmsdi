@@ -6,29 +6,25 @@ import {
 import { GiTombstone } from 'react-icons/gi'
 import { FiTarget } from 'react-icons/fi'
 
-export default function HomePage() {
+export default function SolutionsPage() {
   return (
     <section className="bg-gray-50 min-h-screen py-16">
-      {/* Container principal */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-16">
-        {/* Hero */}
+        {/* Hero interne */}
         <div className="bg-white/60 backdrop-blur-md rounded-xl shadow-2xl p-10 text-center">
-          <h1 className="text-5xl font-extrabold text-gray-900 mb-6">Bienvenue !</h1>
+          <h1 className="text-5xl font-extrabold text-gray-900 mb-6">
+            Nos Solutions
+          </h1>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus orci non sagittis auctor.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Duis rhoncus orci non sagittis auctor.
           </p>
-          <a
-            href="#solutions"
-            className="inline-block px-8 py-3 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition-colors"
-          >
-            Explorer nos solutions
-          </a>
         </div>
 
         {/* Section Solutions */}
         <div id="solutions" className="space-y-8">
           <h2 className="text-3xl font-bold text-gray-900 text-center">
-            Nos Solutions phares
+            Nos Solutions
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Carte Urbanisme */}
@@ -38,7 +34,7 @@ export default function HomePage() {
                 Urbanisme
               </h3>
               <p className="text-sm text-gray-700 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               </p>
             </div>
 
@@ -49,7 +45,7 @@ export default function HomePage() {
                 SIG
               </h3>
               <p className="text-sm text-gray-700 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               </p>
             </div>
 
@@ -60,7 +56,7 @@ export default function HomePage() {
                 Cimetière
               </h3>
               <p className="text-sm text-gray-700 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               </p>
             </div>
 
@@ -71,7 +67,7 @@ export default function HomePage() {
                 Chasse
               </h3>
               <p className="text-sm text-gray-700 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               </p>
             </div>
 
@@ -82,7 +78,7 @@ export default function HomePage() {
                 Bâtiment
               </h3>
               <p className="text-sm text-gray-700 text-center">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               </p>
             </div>
           </div>
